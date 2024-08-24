@@ -27,7 +27,7 @@ const WorkExperience = () => {
 
   return (
     <section className="experience-container" id="Work">
-      <h5>Work Experience</h5>
+      <h5>Projects</h5>
       <div className="experience-content">
         <Slider ref={sliderRef} {...settings}>
           {WORK_EXPERIENCE.map((item) => (
