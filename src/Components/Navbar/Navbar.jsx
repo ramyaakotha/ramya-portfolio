@@ -6,7 +6,7 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   const handleDownload = ()=>{
-    const pdfurl = 'resumeMay2024.pdf';
+    const pdfurl = 'Ramya-Resume.pdf';
     const link = document.createElement('a');
     link.href = pdfurl;
     link.download = "Ramya's Resume.pdf"
@@ -23,7 +23,7 @@ const Navbar = () => {
 
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img className="logo" src="./assets/logo.png" />
+          <img className="logo" src="./assets/nameLogo.png" />
 
           <ul>
             <li>

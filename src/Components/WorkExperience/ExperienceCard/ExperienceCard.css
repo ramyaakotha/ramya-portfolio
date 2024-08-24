@@ -46,6 +46,11 @@
     top: 0.35rem;
 }
 
+.project-name{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
 
 @media (max-width:768) {
     .work-experience-card{
