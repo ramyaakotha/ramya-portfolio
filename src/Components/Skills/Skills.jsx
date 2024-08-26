@@ -4,7 +4,7 @@ import { SKILLS } from '../../utils/data'
 import SkillCard from './SkillCard/SkillCard'
 import SkillsInfoCard from './SkillsInfoCard/SkillsInfoCard'
 
-const Skills = () => {
+const Skills = ({darkMode}) => {
 
   const[selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
 
@@ -36,6 +36,7 @@ const Skills = () => {
                 <SkillsInfoCard
                   heading={selectedSkill.title}
                   skills={selectedSkill.skills}
+                  darkMode = {darkMode}
                 />
             
             </div>

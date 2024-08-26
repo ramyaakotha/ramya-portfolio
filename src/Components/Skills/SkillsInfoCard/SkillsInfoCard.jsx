@@ -1,7 +1,7 @@
 import React from 'react'
 import './SkillsInfoCard.css';
 
-const SkillsInfoCard = ({heading, skills}) => {
+const SkillsInfoCard = ({heading, skills, darkMode}) => {
   return (
     <div className='skills-info-card'>
         <h6>{heading}</h6>
@@ -15,7 +15,7 @@ const SkillsInfoCard = ({heading, skills}) => {
                     </div>
                     
                     <div className='skill-progress-bg'>
-                        <div className='skill-progress' style={{width: item.percentage}}/>
+                        <div className='skill-progress' style={{width: item.percentage, background : darkMode ? '#d8d8d8' : 'linear-gradient(90deg, #aa94fe -50%, #7d60e6 50%)'}}/>
                         </div>
                         </React.Fragment>
             ))}
