@@ -11,8 +11,8 @@ const ContactMe = () => {
         <div style={{flex:1}}>
             <ContactInfoCard 
             iconUrl='../assets/email.png'
-            text= 'ramyakotha.placement@gmail.com'
-            click={() => window.location = 'mailto:ramyakotha.placement@gmail.com'}
+            text= 'workwithramya.11@gmail.com'
+            click={() => window.location = 'mailto:workwithramya.11@gmail.com'}
             />
              <ContactInfoCard 
             iconUrl='../assets/github.png'
